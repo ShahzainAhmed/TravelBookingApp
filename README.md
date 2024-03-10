@@ -1,8 +1,8 @@
 # Travel Booking App
-
-### Design Reference:
-<p align="center" width="50%">
-    <img width="50%" src="https://github.com/ShahzainAhmed/TravelBookingApp/assets/59369881/c19f32f1-a498-479f-b7da-1aab69dfd9f1">
-</p>
-
 ### LinkedIn Post:
+https://www.linkedin.com/feed/update/urn:li:activity:7172603081224798209/
+
+### Preview:
+<div align="center">
+  <video src="https://github.com/ShahzainAhmed/TravelBookingApp/assets/59369881/e61eaf77-5db0-4bec-b519-53208599c97b" width=100/>
+<div/>
