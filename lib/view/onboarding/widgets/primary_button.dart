@@ -43,33 +43,3 @@ class PrimaryButton extends StatelessWidget {
     );
   }
 }
-
-
-/* 
-ElevatedButton(
-      style: ElevatedButton.styleFrom(
-        fixedSize: Size(Get.width, 45.h),
-        backgroundColor: AppColors.kOrangeColor,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(50.r),
-        ),
-      ),
-      onPressed: onTap,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Text(
-            'Create new account',
-            style: AppTypography.kLight10
-                .copyWith(color: AppColors.kWhiteColor.withOpacity(0.9)),
-          ),
-          Icon(
-            Icons.arrow_right_alt_sharp,
-            size: 18.sp,
-            color: AppColors.kWhiteColor.withOpacity(0.7),
-          ),
-        ],
-      ),
-    )
- */
