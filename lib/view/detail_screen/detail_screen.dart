@@ -25,7 +25,7 @@ class _DetailScreenState extends State<DetailScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        backgroundColor: AppColors.kTransparentColor,
         leading: IconButton(
             iconSize: 20,
             onPressed: () async {

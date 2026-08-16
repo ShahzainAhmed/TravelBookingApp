@@ -25,16 +25,16 @@ class HomeScreen extends StatelessWidget {
         onTap: (index) {},
       ),
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        shadowColor: Colors.transparent,
+        surfaceTintColor: AppColors.kTransparentColor,
+        backgroundColor: AppColors.kTransparentColor,
+        shadowColor: AppColors.kTransparentColor,
         automaticallyImplyLeading: false,
         centerTitle: true,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            CircleAvatar(
-              backgroundColor: AppColors.kVeryLighGreyColor,
-              child: Image.asset(ImageAssets.kTiktokProfile),
+            const CircleAvatar(
+              backgroundImage: AssetImage(ImageAssets.kTiktokProfile),
             ),
             Text('Discover Places', style: AppTypography.kExtraBold16),
             const CircleAvatar(

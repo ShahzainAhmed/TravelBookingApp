@@ -53,7 +53,7 @@ class BannerCard extends StatelessWidget {
                         EdgeInsets.symmetric(horizontal: 20.w, vertical: 8.h),
                     child: Text(
                       "Pyramid",
-                      style: AppTypography.kLight10.copyWith(
+                      style: AppTypography.kBold10.copyWith(
                         color: AppColors.kWhiteColor.withOpacity(0.7),
                       ),
                     ),
