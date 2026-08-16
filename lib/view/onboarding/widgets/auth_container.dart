@@ -35,7 +35,7 @@ class AuthContainer extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           PrimaryButton(
-              title: "Create new account",
+              title: "Continue",
               borderRadius: 30,
               onTap: () => Get.to(const HomeScreen())),
           SizedBox(height: 15.h),

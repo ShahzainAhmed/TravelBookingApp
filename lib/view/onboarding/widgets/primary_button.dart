@@ -9,7 +9,11 @@ class PrimaryButton extends StatelessWidget {
   final int borderRadius;
   final String title;
   final VoidCallback onTap;
-  const PrimaryButton({super.key, required this.onTap, required this.title, required this.borderRadius});
+  const PrimaryButton(
+      {super.key,
+      required this.onTap,
+      required this.title,
+      required this.borderRadius});
 
   @override
   Widget build(BuildContext context) {
@@ -29,14 +33,14 @@ class PrimaryButton extends StatelessWidget {
           children: [
             Text(
               title,
-              style: AppTypography.kLight10
+              style: AppTypography.kBold12
                   .copyWith(color: AppColors.kWhiteColor.withOpacity(0.9)),
             ),
-            Icon(
-              Icons.arrow_right_alt_sharp,
-              size: 18.sp,
-              color: AppColors.kWhiteColor.withOpacity(0.7),
-            ),
+            // Icon(
+            //   Icons.arrow_right_alt_sharp,
+            //   size: 18.sp,
+            //   color: AppColors.kWhiteColor.withOpacity(0.7),
+            // ),
           ],
         ),
       ),

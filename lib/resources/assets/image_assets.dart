@@ -3,6 +3,7 @@ class ImageAssets {
   static const String kLogo2 = 'assets/logo2.png';
   static const String kLogo3 = 'assets/logo3.png';
   static const String kProfile = 'assets/profile.png';
+  static const String kTiktokProfile = 'assets/tiktok.jpg';
   static const String kCover = 'assets/cover.jpg';
   static const String kPicture1 = 'assets/picture1.jpg';
   static const String kCategory1 = 'assets/category1.jpg';
