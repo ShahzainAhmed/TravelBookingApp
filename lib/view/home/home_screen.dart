@@ -36,7 +36,7 @@ class HomeScreen extends StatelessWidget {
             const CircleAvatar(
               backgroundImage: AssetImage(ImageAssets.kTiktokProfile),
             ),
-            Text('Discover Places', style: AppTypography.kExtraBold16),
+            Text('Discover Places', style: AppTypography.kMedium16),
             const CircleAvatar(
               backgroundColor: AppColors.kVeryLighGreyColor,
               child: Icon(Icons.search),
