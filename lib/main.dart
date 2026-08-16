@@ -15,23 +15,10 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       builder: (context, child) => GetMaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
+        title: 'Travel Booking App',
         theme: ThemeData(),
         home: const OnboardingScreen(),
       ),
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
